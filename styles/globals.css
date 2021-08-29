@@ -1,0 +1,21 @@
+/* GoogleFont */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .link {
+        @apply text-blue mr-3 text-lg font-semibold cursor-pointer hover:border-b-[2px] border-blue duration-100 delay-100;
+    }
+}
+
+.hidescrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.hidescrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
